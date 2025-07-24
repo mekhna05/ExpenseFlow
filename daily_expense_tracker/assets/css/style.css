@@ -1,0 +1,74 @@
+/* Make body full height and use flexbox to center content */
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center; /* horizontal center */
+  align-items: center;     /* vertical center */
+  flex-direction: column;  /* stack children vertically */
+  margin: 0;
+  padding: 20px; /* optional padding */
+  background-color: #121212; /* keep your dark background */
+  color: #e0e0e0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Limit form and content width */
+form, .container, main, .content-wrapper {
+  width: 100%;
+  max-width: 400px; /* max width for readability */
+  box-sizing: border-box;
+}
+
+/* Optional: add some spacing below headings */
+h1, h2 {
+  margin-bottom: 1rem;
+}
+
+/* Add consistent spacing between form elements */
+input, select, textarea, button {
+  width: 100%;
+  padding: 10px;
+  margin: 8px 0;
+  border-radius: 6px;
+  border: none;
+  font-size: 1rem;
+}
+input[type="checkbox"] {
+  width: auto;
+  margin-right: 8px;
+  transform: scale(1.2);
+  accent-color: #4CAF50; /* Optional: green color for checked box */
+  cursor: pointer;
+}
+.remember-me {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 8px 0;
+  width: 100%;
+  justify-content: flex-start;
+  font-size: 1rem;
+}
+
+/* Button styling */
+button {
+  background-color: #bb86fc;
+  color: #121212;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #9a67ea;
+}
+
+/* Links */
+a {
+  color: #bb86fc;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
