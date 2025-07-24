@@ -24,4 +24,4 @@ Built with **HTML, CSS, JavaScript, PHP, and MySQL**.
 
 
 ## 👤 Author
-[MJ](https://github.com/Mj-0907)
+[Mekhna Joby](https://github.com/mekhna05)
