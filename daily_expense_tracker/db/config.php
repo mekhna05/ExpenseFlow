@@ -2,7 +2,7 @@
 $host = "localhost";
 $username = "root";
 $password = ""; // default password for XAMPP
-$database = "daily_expense_tracker";
+$database = "expenseflow";
 // Create connection
 $conn = new mysqli($host, $username, $password, $database);
 // Check connection
